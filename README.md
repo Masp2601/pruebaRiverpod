@@ -1,9 +1,11 @@
 # riverpod_prueba
 
-Descripción del Proyecto:
+# Descripción del Proyecto:
+
 El proyecto es una aplicación simple de autenticación que consta de dos pantallas: una pantalla de inicio de sesión y una pantalla de inicio. Los usuarios podrán iniciar sesión utilizando su número de teléfono, recibir un código de verificación por SMS y luego ingresar a la pantalla de inicio, donde verán su número de teléfono y tendrán la opción de cerrar sesión.
 
-Estructura del Proyecto:
+# Estructura del Proyecto:
+
 Pantalla de Inicio de Sesión (LoginPage):
 
 Los usuarios pueden ingresar su número de teléfono.
@@ -17,14 +19,15 @@ Pantalla de Inicio (HomePage):
 
 Muestra el número de teléfono del usuario autenticado.
 Proporciona un botón para cerrar sesión.
-Tecnologías Utilizadas:
+# Tecnologías Utilizadas:
+
 Flutter: Para el desarrollo de la aplicación móvil.
 Firebase Authentication: Para autenticar a los usuarios a través de su número de teléfono y verificar el código de verificación.
 Firebase Firestore: Para almacenar y recuperar datos del usuario, en este caso, solo el número de teléfono.
 Ejecución del Proyecto:
 Para ejecutar el proyecto, sigue estos pasos:
 
-Configuración del Entorno de Desarrollo:
+# Configuración del Entorno de Desarrollo:
 
 Asegúrate de tener instalado Flutter en tu sistema. Puedes seguir la documentación oficial de Flutter para obtener instrucciones detalladas sobre cómo hacerlo.
 Creación del Proyecto:
